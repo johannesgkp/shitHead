@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body, html {
+	background:url(res/bg.jpg) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-size:18px;
+	font-family:Helvetica, sans-serif;
+}
+
+#desk {
+	width:1470px;
+	height:340px;
+	margin:0px 0px 0px -735px;
+	position:absolute;
+	top:150px;
+	left:50%;
+	border:solid 3px #fff;
+	border-radius:20px;
+}
+
+#cardStackOld, #cardStackNew, .text {
+	background:rgba(255, 255, 255, 0.4);
+	cursor:default;
+}
+#desk .text {
+	width:164px;
+	height:2px;
+	margin:10px 10px 0px 10px;
+	padding:10px 10px 27px 10px;
+	float:left;
+	text-align:center;
+	border-radius:10px;
+	border:solid 3px #fff;	
+}
+
+#desk .cards {
+	width:164px;
+	height:240px;
+	margin:10px;
+	padding:10px;
+	float:left;
+	position:relative;
+	border-radius:10px;
+	border:solid 3px #fff;	
+}
+
+#desk .cards img {
+	width:90%;
+	position:absolute;
+	top:4%;
+	left:5%;
+	bottom:5%;
+	right:5%;
+	cursor:pointer;
+	transition:all 400ms;	
+}
+
+#desk .cards img:hover {
+	width:95%;
+	top:1%;
+	left:2%;
+	bottom:2%;
+	right:2%;
+}
+
+#desk .cardStackOld img:hover {
+	width:90%;
+	top:4%;
+	left:5%;
+	bottom:5%;
+	right:5%;
+	cursor:default;
+}
